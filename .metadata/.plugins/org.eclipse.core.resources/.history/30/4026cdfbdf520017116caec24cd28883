@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<p>Sending form parameters to RESTful webservice (JAX-RS)</p>
+		<!--  
+		<form action="http://localhost:8080/RESTfulWSPrac/rest/university/add">
+			<p>Student's Name : <input type="text" name="name" /> </p>
+			<p>Student's Age :  <input type="text" name="age"  /></p>
+		</form>
+		-->
+	</body>
+</html>

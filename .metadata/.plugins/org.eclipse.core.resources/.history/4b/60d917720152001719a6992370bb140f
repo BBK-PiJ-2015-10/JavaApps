@@ -1,0 +1,31 @@
+package com.neo4j.examples;
+
+import org.neo4j.graphdb.factory.GraphDatabaseFactory;
+import org.neo4j.graphdb.GraphDatabaseService;
+import org.neo4j.graphdb.Transaction;
+import org.neo4j.graphdb.Label;
+import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.RelationshipType;
+import org.neo4j.graphdb.Relationship;
+import java.io.File;
+import java.util.Iterator;
+
+public class Driver {
+
+	public enum NodeType implements Label {
+		Person, Course
+	}
+	
+	public enum RelationType implements RelationshipType {
+		Knows, BelongsTo;
+	}
+	
+	
+	public static void main(String[] args) {
+
+		String address = "C:\neo4jdata\default.graphdb";
+		
+
+	}
+
+}
