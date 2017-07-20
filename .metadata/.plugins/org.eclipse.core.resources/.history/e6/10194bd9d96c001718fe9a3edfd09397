@@ -1,0 +1,71 @@
+package models;
+
+import java.util.Set;
+import java.util.HashSet;
+
+public class Book {
+	
+	private Integer id;
+	
+	private String title;
+	
+	private Integer price;
+	
+	private String author;
+	
+	private static Set<Book> books;
+	
+	static {
+		books = new HashSet();
+		books.add(new Book(1,"Java",200,"Palacios"));
+		books.add(new Book(2,"Scala",300,"Mimadito"));
+	}
+
+	public Book(Integer id, String title, Integer price, String author) {
+		this.id = id;
+		this.title = title;
+		this.price = price;
+		this.author = author;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	
+	public static Set<Book> allBooks(){
+		return books;
+	}
+	
+	
+	
+	
+
+}

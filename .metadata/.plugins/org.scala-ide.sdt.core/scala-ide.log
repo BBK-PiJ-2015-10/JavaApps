@@ -3187,3 +3187,113 @@ Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
 	at com.cedarsoftware.util.io.JsonParser.readValue(JsonParser.java:278)
 	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:521)
 	... 159 more
+2017-07-19 23:28:02,311  WARN [Worker-17] - ScalaProject - Project play-bookstore-app has platform default sourceLevel.
+2017-07-19 23:28:02,316  WARN [Worker-17] - ScalaProject - Project play-bookstore-app runs on platform default installation.
+2017-07-19 23:28:03,293  WARN [Worker-17] - ScalaProject - Project play-bookstore-app has platform default sourceLevel.
+2017-07-19 23:28:03,293  WARN [Worker-17] - ScalaProject - Project play-bookstore-app runs on platform default installation.
+2017-07-19 23:28:04,359  WARN [Worker-3] - ScalaProject - Project play-bookstore-app has platform default sourceLevel.
+2017-07-19 23:28:04,360  WARN [Worker-3] - ScalaProject - Project play-bookstore-app runs on platform default installation.
+2017-07-19 23:28:04,662  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-19 23:28:04,663  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-19 23:58:58,683 ERROR [Worker-30] - EclipseSbtBuildManager - ## Exception when compiling 0 sources to [C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\bin]
+Java heap space
+java.util.jar.Attributes.putValue(Unknown Source)
+java.util.jar.Attributes.read(Unknown Source)
+java.util.jar.Manifest.read(Unknown Source)
+java.util.jar.Manifest.<init>(Unknown Source)
+java.util.jar.JarFile.getManifestFromReference(Unknown Source)
+java.util.jar.JarFile.getManifest(Unknown Source)
+sun.misc.URLClassPath$JarLoader.getClassPath(Unknown Source)
+sun.misc.URLClassPath.getLoader(Unknown Source)
+sun.misc.URLClassPath.getNextLoader(Unknown Source)
+sun.misc.URLClassPath.findResource(Unknown Source)
+java.net.URLClassLoader$2.run(Unknown Source)
+java.net.URLClassLoader$2.run(Unknown Source)
+java.security.AccessController.doPrivileged(Native Method)
+java.net.URLClassLoader.findResource(Unknown Source)
+java.lang.ClassLoader.getResource(Unknown Source)
+java.net.URLClassLoader.getResourceAsStream(Unknown Source)
+sbt.internal.inc.ScalaInstance$.fastActualVersion(ScalaInstance.scala:228)
+sbt.internal.inc.ScalaInstance$.sbt$internal$inc$ScalaInstance$$actualVersion(ScalaInstance.scala:202)
+sbt.internal.inc.ScalaInstance.$anonfun$actualVersion$1(ScalaInstance.scala:65)
+sbt.internal.inc.ScalaInstance$$Lambda$676/58439173.apply(Unknown Source)
+scala.Option.getOrElse(Option.scala:121)
+sbt.internal.inc.ScalaInstance.actualVersion$lzycompute(ScalaInstance.scala:63)
+sbt.internal.inc.ScalaInstance.actualVersion(ScalaInstance.scala:62)
+sbt.internal.inc.MixedAnalyzingCompiler$.makeConfig(MixedAnalyzingCompiler.scala:192)
+sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:244)
+sbt.internal.inc.IncrementalCompilerImpl$$Lambda$668/295554828.apply(Unknown Source)
+sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:156)
+sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:235)
+sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:143)
+org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:54)
+org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:213)
+org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:146)
+           
+2017-07-20 00:00:59,540 ERROR [qtp1276373982-87] - System.err - Exception in thread "qtp1276373982-87"
+2017-07-20 00:00:59,540 ERROR [qtp1276373982-87] - System.err - java.lang.OutOfMemoryError: Java heap space
+2017-07-20 00:01:02,577 ERROR [Active Thread: Equinox Container: 43bdcc99-4d5e-4d8d-b08b-c2d8ac2540b0] - System.err - Exception in thread "Active Thread: Equinox Container: 43bdcc99-4d5e-4d8d-b08b-c2d8ac2540b0"
+2017-07-20 00:01:02,577 ERROR [Active Thread: Equinox Container: 43bdcc99-4d5e-4d8d-b08b-c2d8ac2540b0] - System.err - java.lang.OutOfMemoryError: Java heap space
+2017-07-20 00:03:02,181 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error in Scala compiler
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.jar.Attributes.putValue(Unknown Source)
+	at java.util.jar.Attributes.read(Unknown Source)
+	at java.util.jar.Manifest.read(Unknown Source)
+	at java.util.jar.Manifest.<init>(Unknown Source)
+	at java.util.jar.JarFile.getManifestFromReference(Unknown Source)
+	at java.util.jar.JarFile.getManifest(Unknown Source)
+	at sun.misc.URLClassPath$JarLoader.getClassPath(Unknown Source)
+	at sun.misc.URLClassPath.getLoader(Unknown Source)
+	at sun.misc.URLClassPath.getNextLoader(Unknown Source)
+	at sun.misc.URLClassPath.findResource(Unknown Source)
+	at java.net.URLClassLoader$2.run(Unknown Source)
+	at java.net.URLClassLoader$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findResource(Unknown Source)
+	at java.lang.ClassLoader.getResource(Unknown Source)
+	at java.net.URLClassLoader.getResourceAsStream(Unknown Source)
+	at sbt.internal.inc.ScalaInstance$.fastActualVersion(ScalaInstance.scala:228)
+	at sbt.internal.inc.ScalaInstance$.sbt$internal$inc$ScalaInstance$$actualVersion(ScalaInstance.scala:202)
+	at sbt.internal.inc.ScalaInstance.$anonfun$actualVersion$1(ScalaInstance.scala:65)
+	at sbt.internal.inc.ScalaInstance$$Lambda$676/58439173.apply(Unknown Source)
+	at scala.Option.getOrElse(Option.scala:121)
+	at sbt.internal.inc.ScalaInstance.actualVersion$lzycompute(ScalaInstance.scala:63)
+	at sbt.internal.inc.ScalaInstance.actualVersion(ScalaInstance.scala:62)
+	at sbt.internal.inc.MixedAnalyzingCompiler$.makeConfig(MixedAnalyzingCompiler.scala:192)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:244)
+	at sbt.internal.inc.IncrementalCompilerImpl$$Lambda$668/295554828.apply(Unknown Source)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:156)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:235)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:143)
+	at org.scalaide.core.internal.builder.zinc.CachingCompiler.compile(CachingCompiler.scala:54)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.aggressiveCompile(EclipseSbtBuildManager.scala:213)
+	at org.scalaide.core.internal.builder.zinc.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:146)
+2017-07-20 00:04:39,108  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-20 00:04:39,110  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-20 00:24:06,887 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.MissingRequirementError: object java.util.Set<models.Book> in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.$anonfun$getModuleOrClass$4(Mirrors.scala:54)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:54)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:101)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer.$anonfun$mixedInCompletions$2(ScalaJavaCompletionProposalComputer.scala:118)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-07-20 00:52:34,336  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-20 00:52:34,376  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-20 13:35:36,878  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-20 13:35:36,880  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-20 13:55:00,594 ERROR [Scala Presentation Compiler [play-bookstore-app]] - System.err - java.util.NoSuchElementException: None.get
+2017-07-20 13:55:00,595 ERROR [Scala Presentation Compiler [play-bookstore-app]] - System.err - at scala.None$.get(Option.scala:349)
+2017-07-20 13:55:00,595 ERROR [Scala Presentation Compiler [play-bookstore-app]] - System.err - at scala.None$.get(Option.scala:347)
+2017-07-20 13:55:00,595 ERROR [Scala Presentation Compiler [play-bookstore-app]] - System.err - at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:31)
+2017-07-20 13:55:00,595 ERROR [Scala Presentation Compiler [play-bookstore-app]] - System.err - at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+2017-07-20 13:55:00,595 ERROR [Scala Presentation Compiler [play-bookstore-app]] - System.err - at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+2017-07-20 13:55:00,595 ERROR [Scala Presentation Compiler [play-bookstore-app]] - System.err - at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-07-20 14:06:27,511  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-bookstore-app, setting default to 2.12.
+2017-07-20 14:06:27,564  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-bookstore-app, setting default to 2.12.

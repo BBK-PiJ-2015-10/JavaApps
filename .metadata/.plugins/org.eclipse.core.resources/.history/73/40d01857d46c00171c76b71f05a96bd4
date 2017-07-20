@@ -1,0 +1,6 @@
+package views.Home;
+
+public class Snippet {
+	addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.1.0")
+}
+

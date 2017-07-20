@@ -1,0 +1,15 @@
+@(book: Book)
+
+@import helper._
+
+@layout("@book.getTitle"){
+	<h2>@book.getTitle</h2>
+	<p>Price : @book.getPrice</p>
+	<p>Author :@book.getAuthor</p>
+	
+	<a href="@routes.BookController.edit(book.getId)">Edit</a>
+	<a href="@routes.BookController.destroy(book.getId)">Delete</a>
+}
+
+
+

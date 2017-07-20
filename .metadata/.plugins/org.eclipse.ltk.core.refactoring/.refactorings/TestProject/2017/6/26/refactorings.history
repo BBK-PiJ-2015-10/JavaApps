@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;WebCreator&apos; to &apos;WebGet&apos;&#x0D;&#x0A;- Original project: &apos;TestProject&apos;&#x0D;&#x0A;- Original element: &apos;WebCreator&apos;&#x0D;&#x0A;- Renamed element: &apos;WebGet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WebCreator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{WebCreator.java[WebCreator" matchStrategy="1" name="WebGet" qualified="false" references="true" similarDeclarations="false" stamp="1498519062017" textual="false" version="1.0"/>
+</session>

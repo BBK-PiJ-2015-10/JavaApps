@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\conf\application.conf,C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\target\scala-2.12\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\conf\evolutions,C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\target\scala-2.12\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\conf\logback.xml,C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\target\scala-2.12\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\conf\routes,C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\target\scala-2.12\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\conf\evolutions\default,C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\target\scala-2.12\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\conf\evolutions\default\1.sql,C:\Users\yasse\JavaApps\PlayBookStoreApp\play-bookstore-app\target\scala-2.12\classes\evolutions\default\1.sql)[0m

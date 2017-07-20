@@ -1,0 +1,11 @@
+package controllers;
+
+import play.mvc.Controller;
+
+public class BookController extends Controller {
+
+	public Result index(){
+		return TODO;
+	}
+	
+}
